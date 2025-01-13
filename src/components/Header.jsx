@@ -19,7 +19,7 @@ const Header = ({ insideHome }) => {
                 }
                 <li className='list-none inline-block px-5'><Link to={'/wishlist'}><i className='fa-solid fa-heart text-red-600'></i>Wishlist <span className='bg-black text-white rounded p-1'> {userWishlist?.length}</span></Link>
                 </li>
-            <li className='list-none inline-block px-5'><Link to={'./cart'}><i className='fa-solid fa-heart text-green-600'></i>Cart <span   className='bg-black text-white rounded p-1'>{userCart?.length}</span></Link>
+            <li className='list-none inline-block px-5'><Link to={'/cart'}><i className='fa-solid fa-heart text-green-600'></i>Cart <span   className='bg-black text-white rounded p-1'>{userCart?.length}</span></Link>
                 </li>
 
             </ul>
